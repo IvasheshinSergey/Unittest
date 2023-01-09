@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>495</width>
+    <height>257</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#MainWindow{
+background-color: qconicalgradient(cx:0.505773, cy:0.517, angle:317.8, stop:0.0852273 rgba(65, 103, 169, 255), stop:1 rgba(255, 255, 255, 255));
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="lineEdit_3">
+    <property name="geometry">
+     <rect>
+      <x>66</x>
+      <y>7</y>
+      <width>198</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit">
+    <property name="geometry">
+     <rect>
+      <x>66</x>
+      <y>35</y>
+      <width>275</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>34</y>
+      <width>49</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label{
+font: 12pt &quot;Matura MT Script Capitals&quot;;
+color: #000000;
+background:#3a09e8;
+border-radius: 10px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Name</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>160</y>
+      <width>101</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButton {
+font: 20pt &quot;Matura MT Script Capitals&quot;;
+color: #000000;
+background: #3a09e8;
+border-radius: 10px;
+}
+
+#pushButton:hover {
+font: 20pt &quot;Matura MT Script Capitals&quot;;
+background: #2d7391;
+color: #000000;
+border-radius: 10px;
+}</string>
+    </property>
+    <property name="text">
+     <string>ok</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>11</x>
+      <y>6</y>
+      <width>49</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#label_3{
+font: 12pt &quot;Matura MT Script Capitals&quot;;
+color: #000000;
+background:#3a09e8;
+border-radius: 10px;
+}</string>
+    </property>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>160</y>
+      <width>71</width>
+      <height>36</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButton_2 {
+font: 20pt &quot;Matura MT Script Capitals&quot;;
+color: #000000;
+background: #3a09e8;
+border-radius: 10px;
+}
+
+#pushButton_2:hover {
+font: 20pt &quot;Matura MT Script Capitals&quot;;
+background: #2d7391;
+color: #000000;
+border-radius: 10px;
+}</string>
+    </property>
+    <property name="text">
+     <string>cansel</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButton_3 {
+font: 20pt &quot;Matura MT Script Capitals&quot;;
+color: #000000;
+background: #3a09e8;
+border-radius: 10px;
+}
+
+#pushButton_3:hover {
+font: 20pt &quot;Matura MT Script Capitals&quot;;
+background: #2d7391;
+color: #000000;
+border-radius: 10px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Add Image</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>120</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">#pushButton_4 {
+font: 20pt &quot;Matura MT Script Capitals&quot;;
+color: #000000;
+background: #3a09e8;
+border-radius: 10px;
+}
+
+#pushButton_4:hover {
+font: 20pt &quot;Matura MT Script Capitals&quot;;
+background: #2d7391;
+color: #000000;
+border-radius: 10px;
+}</string>
+    </property>
+    <property name="text">
+     <string>Add Video</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>495</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

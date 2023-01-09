@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>578</width>
+    <height>434</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#MainWindow{
+background-color: qconicalgradient(cx:0.505773, cy:0.517, angle:317.8, stop:0.0852273 rgba(65, 103, 169, 255), stop:1 rgba(255, 255, 255, 255));
+}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="4" column="1">
+     <widget class="QPushButton" name="pushButton">
+      <property name="styleSheet">
+       <string notr="true">#pushButton {
+font: 20pt &quot;Matura MT Script Capitals&quot;;
+color: #000000;
+background: #3a09e8;
+border-radius: 10px;
+}
+
+#pushButton:hover {
+font: 20pt &quot;Matura MT Script Capitals&quot;;
+background: #2d7391;
+color: #000000;
+border-radius: 10px;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Left</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="3">
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="styleSheet">
+       <string notr="true">#pushButton_3 {
+font: 20pt &quot;Matura MT Script Capitals&quot;;
+color: #000000;
+background: #3a09e8;
+border-radius: 10px;
+}
+
+#pushButton_3:hover {
+font: 20pt &quot;Matura MT Script Capitals&quot;;
+background: #2d7391;
+color: #000000;
+border-radius: 10px;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Right</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1" colspan="3">
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">#label_2{
+font: 38pt &quot;Matura MT Script Capitals&quot;;
+color: #000000;
+background:#3a09e8;
+border-radius: 10px;
+}</string>
+      </property>
+      <property name="text">
+       <string>MediaPlayer</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="3">
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="styleSheet">
+       <string notr="true">#pushButton_4{
+font: 20pt &quot;Matura MT Script Capitals&quot;;
+color: #000000;
+background: #3a09e8;
+border-radius: 10px;
+}
+
+#pushButton_4:hover {
+font: 20pt &quot;Matura MT Script Capitals&quot;;
+background: #2d7391;
+color: #000000;
+border-radius: 10px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Add album</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="styleSheet">
+       <string notr="true">#pushButton_5 {
+font: 20pt &quot;Matura MT Script Capitals&quot;;
+color: #000000;
+background: #3a09e8;
+border-radius: 10px;
+}
+
+#pushButton_5:hover {
+font: 20pt &quot;Matura MT Script Capitals&quot;;
+background: #2d7391;
+color: #000000;
+border-radius: 10px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Delete track</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="styleSheet">
+       <string notr="true">#pushButton_6{
+font: 20pt &quot;Matura MT Script Capitals&quot;;
+color: #000000;
+background: #3a09e8;
+border-radius: 10px;
+}
+
+#pushButton_6:hover {
+font: 20pt &quot;Matura MT Script Capitals&quot;;
+background: #2d7391;
+color: #000000;
+border-radius: 10px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Add track</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="2">
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="styleSheet">
+       <string notr="true">#pushButton_2{
+font: 20pt &quot;Matura MT Script Capitals&quot;;
+color: #000000;
+background: #3a09e8;
+border-radius: 10px;
+}
+
+#pushButton_2:hover {
+font: 20pt &quot;Matura MT Script Capitals&quot;;
+background: #2d7391;
+color: #000000;
+border-radius: 10px;
+}
+</string>
+      </property>
+      <property name="text">
+       <string>Payse</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QComboBox" name="comboBox">
+      <property name="styleSheet">
+       <string notr="true">#comboBox{
+font: 9pt &quot;Matura MT Script Capitals&quot;;
+color: rgb(0, 0, 127);
+background-color:#3a09e8
+}</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" rowspan="4">
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="styleSheet">
+       <string notr="true">QHeaderView {
+background-color: #3a09e8;
+font-size:13px;
+}
+QHeaderView::section:horizontal {
+color: #fff;
+border-style: solid;
+border-radius: 4px;
+background-color: qlineargradient( x1: 0, y1: 0, x2: 0, y2: 1,
+stop: 0 #4287ff, stop: 1 #356ccc);
+}
+QTableView {
+border: 2px solid #3a09e8;
+border-top-color: #4287ff;
+border-radius: 10px;
+background-color: #EEFFFF;
+gridline-color: #777;
+selection-background-color: #ccdfff;
+color:#000000;
+font-size:14px;
+font-weight: bold;
+}
+</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="QSlider" name="horizontalSlider">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1" rowspan="2" colspan="3">
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">#label {
+border-radius:20px;
+background-color:#3a09e8
+}</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="styleSheet">
+       <string notr="true">#pushButton_7{
+font: 20pt &quot;Matura MT Script Capitals&quot;;
+color: #000000;
+background: #3a09e8;
+border-radius: 10px;
+}
+
+#pushButton_7:hover {
+font: 20pt &quot;Matura MT Script Capitals&quot;;
+background: #2d7391;
+color: #000000;
+border-radius: 10px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Delete album</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="3">
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="styleSheet">
+       <string notr="true">#pushButton_8{
+font: 20pt &quot;Matura MT Script Capitals&quot;;
+color: #000000;
+background: #3a09e8;
+border-radius: 10px;
+}
+
+#pushButton_8:hover {
+font: 20pt &quot;Matura MT Script Capitals&quot;;
+background: #2d7391;
+color: #000000;
+border-radius: 10px;
+}</string>
+      </property>
+      <property name="text">
+       <string>Info</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionADA">
+   <property name="text">
+    <string>ADA</string>
+   </property>
+   <property name="shortcutVisibleInContextMenu">
+    <bool>false</bool>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
